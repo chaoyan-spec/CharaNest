@@ -121,22 +121,26 @@ TA 不是住在一张固定背景里，而是会和你选择的城市经历同�
 
 ## 下载与安装
 
-前往 [CharaNest 0.4.0-beta.5 Beta](https://github.com/chaoyan-spec/CharaNest/releases/tag/v0.4.0-beta.5) 下载：
+### macOS（Apple Silicon）
 
-### macOS Apple Silicon
+**推荐：[下载 DMG 安装包](https://github.com/chaoyan-spec/CharaNest/releases/download/v0.4.0-beta.5/CharaNest-0.4.0-beta.5-arm64.dmg)**
 
-1. 优先下载 macOS Apple Silicon 的 `DMG`
+备用：[下载 ZIP 压缩包](https://github.com/chaoyan-spec/CharaNest/releases/download/v0.4.0-beta.5/CharaNest-0.4.0-beta.5-arm64.zip)
+
+1. 下载 DMG 并打开
 2. 将 CharaNest 拖入 `Applications`
 3. 首次打开时，如被 macOS 拦截，请右键 CharaNest 并选择“打开”
-4. `ZIP` 将作为备用下载方式提供
 
 当前 macOS Beta 使用 ad-hoc signing，尚未经过 Apple notarization。请只从本仓库的 Releases 下载。
 
-### Windows x64
+### Windows（x64）
 
-1. 下载 `CharaNest-0.4.0-beta.5-x64.exe`
-2. 运行安装程序完成安装
-3. 当前版本尚未进行 Windows 代码签名；如果 Microsoft Defender SmartScreen 显示提醒，请先确认下载来源与 Release 中的 SHA-256
+**[下载 Windows x64 安装包（EXE）](https://github.com/chaoyan-spec/CharaNest/releases/download/v0.4.0-beta.5/CharaNest-0.4.0-beta.5-x64.exe)**
+
+1. 下载并运行 EXE 安装程序
+2. 当前版本尚未进行 Windows 代码签名；如果 Microsoft Defender SmartScreen 显示提醒，请先确认下载来源与 Release 中的 SHA-256
+
+完整版本说明与校验值见 [CharaNest 0.4.0-beta.5 Beta](https://github.com/chaoyan-spec/CharaNest/releases/tag/v0.4.0-beta.5)。Release 页面底部由 GitHub 自动生成的 `Source code` 文件不是应用安装包。
 
 ## Current Beta Status
 
