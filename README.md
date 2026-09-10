@@ -15,7 +15,7 @@
   <code>0.4.0-beta.5</code> · macOS Apple Silicon · Windows support is currently in validation
 </p>
 
-![PAPAlu 在 CharaNest 中陪伴专注，旁边是真实运行的 Garden](assets/readme/hero.png)
+![CharaNest 与 PAPAlu 的品牌主视觉](assets/readme/hero.png)
 
 ## TA 真的住在桌面上
 
