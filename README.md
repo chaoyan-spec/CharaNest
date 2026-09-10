@@ -12,7 +12,11 @@
 </p>
 
 <p align="center">
-  <code>0.4.0-beta.5</code> · macOS Apple Silicon · Windows support is currently in validation
+  <code>0.4.0-beta.5</code> · macOS Apple Silicon · Windows x64
+</p>
+
+<p align="center">
+  <a href="https://github.com/chaoyan-spec/CharaNest/releases/tag/v0.4.0-beta.5"><strong>下载 CharaNest Beta 5</strong></a>
 </p>
 
 ![CharaNest 与 PAPAlu 的品牌主视觉](assets/readme/hero.png)
@@ -102,29 +106,38 @@ TA 不是住在一张固定背景里，而是会和你选择的城市经历同�
 
 ## 下载与安装
 
-Beta 下载即将开放。发布后请前往 [GitHub Releases](https://github.com/chaoyan-spec/CharaNest/releases)：
+前往 [CharaNest 0.4.0-beta.5 Beta](https://github.com/chaoyan-spec/CharaNest/releases/tag/v0.4.0-beta.5) 下载：
+
+### macOS Apple Silicon
 
 1. 优先下载 macOS Apple Silicon 的 `DMG`
 2. 将 CharaNest 拖入 `Applications`
 3. 首次打开时，如被 macOS 拦截，请右键 CharaNest 并选择“打开”
 4. `ZIP` 将作为备用下载方式提供
 
-> 当前 Beta 使用 ad-hoc signing，尚未经过 Apple notarization。请只从本仓库的 Releases 下载。
+当前 macOS Beta 使用 ad-hoc signing，尚未经过 Apple notarization。请只从本仓库的 Releases 下载。
+
+### Windows x64
+
+1. 下载 `CharaNest-0.4.0-beta.5-x64.exe`
+2. 运行安装程序完成安装
+3. 当前版本尚未进行 Windows 代码签名；如果 Microsoft Defender SmartScreen 显示提醒，请先确认下载来源与 Release 中的 SHA-256
 
 ## Current Beta Status
 
 | 项目 | 当前状态 |
 | --- | --- |
 | Version | `0.4.0-beta.5` |
-| macOS | Apple Silicon |
-| Windows | Support is currently in validation |
-| Signing | ad-hoc |
+| macOS | Apple Silicon，可下载 |
+| Windows | x64，可下载；真机验收通过 |
+| Signing | macOS ad-hoc；Windows 未代码签名 |
 | Apple notarization | 尚未完成 |
 | Chat | 需要用户自己的 DeepSeek API Key |
 
 ### 当前限制
 
-- Windows 版本仍在真机验收中，暂未作为正式下载提供
+- macOS 首次启动可能需要右键“打开”或在“系统设置 → 隐私与安全性”中允许
+- Windows 首次下载安装时可能出现 Microsoft Defender SmartScreen 提示
 - 不同角色可用的高级动作取决于已准备的素材；只有基础 `idle` 也可以正常使用
 - 当前没有长期结构化记忆、语音聊天、云同步或自动更新
 
