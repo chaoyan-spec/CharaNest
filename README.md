@@ -90,7 +90,22 @@ Room 与 Garden 不是一张静止背景，而是角色生活和发生行为的�
 
 在 Garden 里，角色可以跑动、浇花。粉色玫瑰会轻轻摇曳，种下的位置也会被保存。
 
-![CharaNest 真实运行的 Room 与 Garden](assets/readme/room-garden.png)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/readme/room-day.jpg" alt="PAPAlu 在 CharaNest 白天的 Room 中">
+      <br><sub><strong>Room · 白天</strong></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/readme/garden-day.jpg" alt="PAPAlu 在 CharaNest 白天的 Garden 中">
+      <br><sub><strong>Garden · 白天</strong></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub><strong>Room / Garden · 夜晚</strong></sub></p>
+
+![CharaNest 夜晚的 Room 与 Garden](assets/readme/room-garden.png)
 
 ### 你的专注，会让花园长大
 
